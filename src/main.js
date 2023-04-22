@@ -1,3 +1,4 @@
-import { App } from './SPAModule/App';
+import App from "./components/App.js";
 
-const rootElement = document.querySelector('#root');
+const root = document.querySelector('#root');
+new App(root).render()
